@@ -1,0 +1,127 @@
+.progress.is-codeigniter::-webkit-progress-value {
+  background-color: #ff4800;
+}
+
+.progress.is-codeigniter::-moz-progress-bar {
+  background-color: #ff4800;
+}
+
+.progress.is-codeigniter::-ms-fill {
+  background-color: #ff4800;
+}
+
+.progress.is-codeigniter:indeterminate {
+  background-image: linear-gradient(to right, #ff4800 30%, #dbdbdb 30%);
+}
+
+.progress.is-react::-webkit-progress-value {
+  background-color: #71defb;
+}
+
+.progress.is-react::-moz-progress-bar {
+  background-color: #71defb;
+}
+
+.progress.is-react::-ms-fill {
+  background-color: #71defb;
+}
+
+.progress.is-react:indeterminate {
+  background-image: linear-gradient(to right, #71defb 30%, #dbdbdb 30%);
+}
+
+.progress.is-typescript::-webkit-progress-value {
+  background-color: #1d3365;
+}
+
+.progress.is-typescript::-moz-progress-bar {
+  background-color: #1d3365;
+}
+
+.progress.is-typescript::-ms-fill {
+  background-color: #1d3365;
+}
+
+.progress.is-typescript:indeterminate {
+  background-image: linear-gradient(to right, #1d3365 30%, #dbdbdb 30%);
+}
+
+.progress.is-angular::-webkit-progress-value {
+  background-color: #dd0031;
+}
+
+.progress.is-angular::-moz-progress-bar {
+  background-color: #dd0031;
+}
+
+.progress.is-angular::-ms-fill {
+  background-color: #dd0031;
+}
+
+.progress.is-angular:indeterminate {
+  background-image: linear-gradient(to right, #dd0031 30%, #dbdbdb 30%);
+}
+
+.progress.is-laravel::-webkit-progress-value {
+  background-color: #f0513e;
+}
+
+.progress.is-laravel::-moz-progress-bar {
+  background-color: #f0513e;
+}
+
+.progress.is-laravel::-ms-fill {
+  background-color: #f0513e;
+}
+
+.progress.is-laravel:indeterminate {
+  background-image: linear-gradient(to right, #f0513e 30%, #dbdbdb 30%);
+}
+
+.progress.is-jquery::-webkit-progress-value {
+  background-color: #1e78ac;
+}
+
+.progress.is-jquery::-moz-progress-bar {
+  background-color: #1e78ac;
+}
+
+.progress.is-jquery::-ms-fill {
+  background-color: #1e78ac;
+}
+
+.progress.is-jquery:indeterminate {
+  background-image: linear-gradient(to right, #1e78ac 30%, #dbdbdb 30%);
+}
+
+.progress.is-talend::-webkit-progress-value {
+  background-color: #005695;
+}
+
+.progress.is-talend::-moz-progress-bar {
+  background-color: #005695;
+}
+
+.progress.is-talend::-ms-fill {
+  background-color: #005695;
+}
+
+.progress.is-talend:indeterminate {
+  background-image: linear-gradient(to right, #005695 30%, #dbdbdb 30%);
+}
+
+.progress.is-linux::-webkit-progress-value {
+  background-color: #07060b;
+}
+
+.progress.is-linux::-moz-progress-bar {
+  background-color: #07060b;
+}
+
+.progress.is-linux::-ms-fill {
+  background-color: #07060b;
+}
+
+.progress.is-linux:indeterminate {
+  background-image: linear-gradient(to right, #07060b 30%, #dbdbdb 30%);
+}

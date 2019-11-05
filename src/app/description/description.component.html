@@ -1,0 +1,46 @@
+<div class="box">
+    <article class="media">
+        <div class="media-left">
+            <figure class="image is-64x64">
+                <img class="is-rounded" src="{{pic}}" alt="image">
+            </figure>
+        </div>
+        <div class="media-content">
+            <div class="content">
+                <p>
+                    <strong>{{utilisateur}}</strong> <small>@{{pseudo}}</small>
+                    <br>
+                    {{post}}
+                </p>
+            </div>
+            <div class="content">
+                <p class="textFont">
+                    {{description}}
+                </p>
+            </div>
+            <nav class="level is-mobile">
+                <div class="level-left">
+                    <a class="level-item" target="_blank" aria-label="facebook" href="{{link_fb}}">
+                        <span class="icon is-small">
+                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                    <a class="level-item" target="_blank" aria-label="linkedin" href="{{link_lnkin}}">
+                        <span class="icon is-small">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                    <a class="level-item dropdown is-hoverable" aria-label="mobile" (mouseover)="isIn()"
+                        (mouseout)="isOut()">
+                        <span class="icon is-small">
+                            <i class="fas fa-mobile" aria-hidden="true"></i>
+                        </span>
+                        <span class="tag is-black {{visibility}}">
+                            {{number}}
+                        </span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </article>
+</div>

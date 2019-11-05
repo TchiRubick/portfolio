@@ -1,0 +1,43 @@
+<div class="card">
+    <header class="card-header">
+        <p class="card-header-title">
+            {{titre}}
+        </p>
+    </header>
+    <div class="card-content">
+        <div class="content">
+            <div class="table-container" style="max-width: 90vw;">
+                <table class="table">
+                    <tr>
+                        <td *ngFor="let exp of experience">
+                            <div class="box">
+                                <article class="media">
+                                    <div class="media-content">
+                                        <div class="content">
+                                            <p>
+                                                <strong>{{exp.societe}}</strong><br>
+                                                <small><i>@{{exp.poste}}</i></small><br>
+                                                <span class="tag is-primary">{{exp.debut}}</span>
+                                                <span *ngIf="exp.isEnded">&nbsp;à&nbsp;</span>
+                                                <span *ngIf="exp.isEnded" class="tag {{exp.ended}}">
+                                                    {{exp.fin}}
+                                                </span>
+                                                <br>
+                                                <span class="textFont2">{{exp.details}}</span>
+                                                <br>
+                                                <span class="tag is-dark is-rounded smrg"
+                                                    *ngFor="let tag of exp.badges">
+                                                    {{tag}}
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="card">
+    <header class="card-header">
+        <p class="card-header-title">
+            {{titre}}
+        </p>
+    </header>
+    <div class="card-content">
+        <div class="field">
+            <label class="label">Votre adresse email</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-info" type="email" placeholder="utilisateur@mail.com"
+                    value="{{val_Mail}}" (keyup)="verifyMail()">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                </span>
+            </div>
+            <p class="help is-danger">{{err_Mail}}</p>
+        </div>
+        <div class="field is-grouped">
+            <div class="control">
+                <button class="button is-link " disabled={{isDisabled}}>Demander prise de contact</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="notification is-info">
+            {{notification_message}}
+        </div>
+    </footer>
+</div>

@@ -1,0 +1,22 @@
+<div class="card">
+    <header class="card-header">
+        <p class="card-header-title">
+            {{titreSkills}}
+        </p>
+    </header>
+    <div class="card-content">
+        <div class="content">
+            <div class="container">
+                <div *ngFor="let l of list">
+                    <div class="columns">
+                        <div class="column">
+                            <span>{{l.titre}}</span>
+                            <progress class="progress is-small {{l.style}}" value="{{l.value}}"
+                                max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
