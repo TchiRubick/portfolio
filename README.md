@@ -1,4 +1,7 @@
-# Anfront
+# Présentation
+Portofolio fait en Angular 8 et Bulma
+
+# Portfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
